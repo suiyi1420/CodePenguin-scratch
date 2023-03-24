@@ -31,7 +31,7 @@ const getUserInfo = dispatch => {
     // eslint-disable-next-line camelcase
     const access = param.get('access');
     const token = 'Bearer ' + access;
-    fetch('/static/config.json')
+    fetch(`static/config.json`)
         .then(resp => resp.json())
         .then(res => {
             const opt = {

@@ -11,9 +11,17 @@ var UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 var autoprefixer = require('autoprefixer');
 var postcssVars = require('postcss-simple-vars');
 var postcssImport = require('postcss-import');
-
+// process.env.NODE_ENV = 'production';
+// const STATIC_PATH =
+//     process.env.NODE_ENV === 'production'
+//         ? '/scratch/static'
+//         : process.env.STATIC_PATH || '/static';
 const STATIC_PATH = process.env.STATIC_PATH || '/static';
 
+process.env.STATIC_PATH = STATIC_PATH;
+
+console.log('process.env.NODE_ENV', process.env.NODE_ENV);
+console.log('STATIC_PATH', STATIC_PATH);
 const base = {
     mode: process.env.NODE_ENV === 'production' ? 'production' : 'development',
     devtool: 'cheap-module-source-map',

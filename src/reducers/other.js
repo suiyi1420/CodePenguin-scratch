@@ -58,7 +58,7 @@ const getSubsectionList = dispatch => {
     const subject_info_id = param.get('subject_info_id');
     const access = param.get('access');
     const token = 'Bearer ' + access;
-    fetch('/static/config.json')
+    fetch(`static/config.json`)
         .then(resp => resp.json())
         .then(res => {
             dispatch(setConfig(res.userWeb, res.apiBaseURL, res.apiWeb));
