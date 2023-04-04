@@ -1,14 +1,8 @@
 [
-    {
+{
         "name": "Arctic",
         "tags": [
-            "outdoors",
-            "cold",
-            "north pole",
-            "south pole",
-            "ice",
-            "antarctica",
-            "robert hunter"
+            "cold"
         ],
         "assetId": "67e0db3305b3c8bac3a363b1c428892e",
         "bitmapResolution": 2,
@@ -17,1168 +11,2492 @@
         "rotationCenterX": 480,
         "rotationCenterY": 360
     },
-    {
-        "name": "Baseball 1",
-        "tags": [
-            "baseball",
-            "sports",
-            "outdoors",
-            "alex eben meyer"
-        ],
-        "assetId": "825d9b54682c406215d9d1f98a819449",
-        "bitmapResolution": 1,
-        "dataFormat": "svg",
-        "md5ext": "825d9b54682c406215d9d1f98a819449.svg",
-        "rotationCenterX": 240,
-        "rotationCenterY": 180
-    },
-    {
-        "name": "Baseball 2",
-        "tags": [
-            "baseball",
-            "sports",
-            "outdoors",
-            "alex eben meyer"
-        ],
-        "assetId": "7be1f5b3e682813dac1f297e52ff7dca",
-        "bitmapResolution": 1,
-        "dataFormat": "svg",
-        "md5ext": "7be1f5b3e682813dac1f297e52ff7dca.svg",
-        "rotationCenterX": 240,
-        "rotationCenterY": 180
-    },
-    {
-        "name": "Basketball 1",
-        "tags": [
-            "sports",
-            "outdoors",
-            "basketball",
-            "alex eben meyer"
-        ],
-        "assetId": "ae21eac3d1814aee1d37ae82ea287816",
-        "bitmapResolution": 1,
-        "dataFormat": "svg",
-        "md5ext": "ae21eac3d1814aee1d37ae82ea287816.svg",
-        "rotationCenterX": 249,
-        "rotationCenterY": 186
-    },
-    {
-        "name": "Basketball 2",
-        "tags": [
-            "outdoors",
-            "sports",
-            "basketball"
-        ],
-        "assetId": "a5865738283613a2725b2c9dda6d8c78",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "a5865738283613a2725b2c9dda6d8c78.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Beach Malibu",
-        "tags": [
-            "outdoors"
-        ],
-        "assetId": "050615fe992a00d6af0e664e497ebf53",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "050615fe992a00d6af0e664e497ebf53.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Beach Rio",
-        "tags": [
-            "outdoors"
-        ],
-        "assetId": "968f0ede6e70e1dbb763d6fd4c5003e0",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "968f0ede6e70e1dbb763d6fd4c5003e0.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Bedroom 1",
-        "tags": [
-            "bedroom",
-            "indoors"
-        ],
-        "assetId": "7aa6bbb2ddc4c10f901e1a50aeac1c7e",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "7aa6bbb2ddc4c10f901e1a50aeac1c7e.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Bedroom 2",
-        "tags": [
-            "indoors"
-        ],
-        "assetId": "e2f8b0dbd0a65d2ad8bfc21616662a6a",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "e2f8b0dbd0a65d2ad8bfc21616662a6a.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Bedroom 3",
-        "tags": [
-            "indoors"
-        ],
-        "assetId": "8cc0b88d53345b3e337e8f028a32a4e7",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "8cc0b88d53345b3e337e8f028a32a4e7.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Bench With View",
-        "tags": [
-            "outdoors",
-            "hill",
-            "view"
-        ],
-        "assetId": "962201a2b712a302fb087f8f0dcb2076",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "962201a2b712a302fb087f8f0dcb2076.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Blue Sky",
-        "tags": [
-            "outdoors",
-            "flying"
-        ],
-        "assetId": "e7c147730f19d284bcd7b3f00af19bb6",
-        "bitmapResolution": 1,
-        "dataFormat": "svg",
-        "md5ext": "e7c147730f19d284bcd7b3f00af19bb6.svg",
-        "rotationCenterX": 240,
-        "rotationCenterY": 180
-    },
-    {
-        "name": "Blue Sky 2 ",
-        "tags": [
-            "outdoors",
-            "flying"
-        ],
-        "assetId": "8eb8790be5507fdccf73e7c1570bbbab",
-        "bitmapResolution": 1,
-        "dataFormat": "svg",
-        "md5ext": "8eb8790be5507fdccf73e7c1570bbbab.svg",
-        "rotationCenterX": 240,
-        "rotationCenterY": 180
-    },
-    {
-        "name": "Boardwalk",
-        "tags": [
-            "outdoors",
-            "ocean"
-        ],
-        "assetId": "de0e54cd11551566f044e7e6bc588b2c",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "de0e54cd11551566f044e7e6bc588b2c.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Canyon",
-        "tags": [
-            "outdoors",
-            "nature"
-        ],
-        "assetId": "c7c0b27b959193a0b570a9639cfe8158",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "c7c0b27b959193a0b570a9639cfe8158.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Castle 1",
-        "tags": [
-            "fantasy"
-        ],
-        "assetId": "e1914ed7917267f1c2ef2b48004cade9",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "e1914ed7917267f1c2ef2b48004cade9.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Castle 2",
-        "tags": [
-            "fantasy"
-        ],
-        "assetId": "951765ee7f7370f120c9df20b577c22f",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "951765ee7f7370f120c9df20b577c22f.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Castle 3",
-        "tags": [
-            "fantasy"
-        ],
-        "assetId": "76fa99f67569fcd39b4be74ed38c33f3",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "76fa99f67569fcd39b4be74ed38c33f3.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Castle 4",
-        "tags": [
-            "fantasy"
-        ],
-        "assetId": "4f45f79af8e8dac3d41eb5a06ade61d4",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "4f45f79af8e8dac3d41eb5a06ade61d4.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Chalkboard",
-        "tags": [
-            "indoors",
-            "school"
-        ],
-        "assetId": "a8a24b5aa717bbef09dbe31368914427",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "a8a24b5aa717bbef09dbe31368914427.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Circles",
-        "tags": [
-            "patterns"
-        ],
-        "assetId": "c9847be305920807c5597d81576dd0c4",
-        "bitmapResolution": 1,
-        "dataFormat": "svg",
-        "md5ext": "c9847be305920807c5597d81576dd0c4.svg",
-        "rotationCenterX": 240,
-        "rotationCenterY": 180
-    },
-    {
-        "name": "City With Water",
-        "tags": [
-            "outdoors",
-            "boston"
-        ],
-        "assetId": "1ef98019fc94ea65a1b55d5521285c7a",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "1ef98019fc94ea65a1b55d5521285c7a.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Colorful City",
-        "tags": [
-            "city",
-            "town",
-            "road",
-            "skyline",
-            "outdoors"
-        ],
-        "assetId": "04d18ddd1b85f0ea30beb14b8da49f60",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "04d18ddd1b85f0ea30beb14b8da49f60.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Concert",
-        "tags": [
-            "indoors",
-            "music",
-            "andrew rae"
-        ],
-        "assetId": "c8d90320d2966c08af8cdd1c6a7a93b5",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "c8d90320d2966c08af8cdd1c6a7a93b5.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Desert",
-        "tags": [
-            "desert",
-            " landscape",
-            " outdoors",
-            " cacti"
-        ],
-        "assetId": "d98a9526a34890cf4bad11b5409eae2a",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "d98a9526a34890cf4bad11b5409eae2a.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Farm",
-        "tags": [
-            "outdoors",
-            "chicken",
-            "barn",
-            "coup",
-            "owen davey"
-        ],
-        "assetId": "1e8a70bd07f1dcba3383883f3b948266",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "1e8a70bd07f1dcba3383883f3b948266.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Field At Mit",
-        "tags": [
-            "outdoors",
-            "architecture"
-        ],
-        "assetId": "5b0a970202b464915915260c03f05455",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "5b0a970202b464915915260c03f05455.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Flowers",
-        "tags": [
-            "outdoors",
-            "nature"
-        ],
-        "assetId": "25a6ede51a96d4e55de2ffb81ae96f8c",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "25a6ede51a96d4e55de2ffb81ae96f8c.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Forest",
-        "tags": [
-            "outdoors",
-            "forest"
-        ],
-        "assetId": "92968ac16b2f0c3f7835a6dacd172c7b",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "92968ac16b2f0c3f7835a6dacd172c7b.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Galaxy",
-        "tags": [
-            "space",
-            "stars",
-            "nasa"
-        ],
-        "assetId": "5fab1922f254ae9fd150162c3e392bef",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "5fab1922f254ae9fd150162c3e392bef.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Garden-rock",
-        "tags": [
-            "outdoors",
-            " garden",
-            " park"
-        ],
-        "assetId": "4f66053598bea0905e1559ab9d5a6e31",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "4f66053598bea0905e1559ab9d5a6e31.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Greek Theater",
-        "tags": [
-            "outdoors",
-            "theatre"
-        ],
-        "assetId": "93d71e8b8a96cc007b8d68f36acd338a",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "93d71e8b8a96cc007b8d68f36acd338a.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Hall",
-        "tags": [
-            "indoors"
-        ],
-        "assetId": "ea86ca30b346f27ca5faf1254f6a31e3",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "ea86ca30b346f27ca5faf1254f6a31e3.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Hay Field",
-        "tags": [
-            "outdoors",
-            "farm"
-        ],
-        "assetId": "da102a69d135973e0fc139131dec785a",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "da102a69d135973e0fc139131dec785a.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Hearts",
-        "tags": [
-            "patterns"
-        ],
-        "assetId": "f98526ccb0eec3ac7d6c8f8ab502825e",
-        "bitmapResolution": 1,
-        "dataFormat": "svg",
-        "md5ext": "f98526ccb0eec3ac7d6c8f8ab502825e.svg",
-        "rotationCenterX": 240,
-        "rotationCenterY": 180
-    },
-    {
-        "name": "Hill",
-        "tags": [
-            "outdoors",
-            "nature"
-        ],
-        "assetId": "2129c842f28d6881f622fdc3497ff2da",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "2129c842f28d6881f622fdc3497ff2da.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Jungle",
-        "tags": [
-            "outdoors",
-            "forest",
-            "robert hunter"
-        ],
-        "assetId": "f4f908da19e2753f3ed679d7b37650ca",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "f4f908da19e2753f3ed679d7b37650ca.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Jurassic",
-        "tags": [
-            "outdoors",
-            "dinosaur",
-            "alex eben meyer"
-        ],
-        "assetId": "64025bdca5db4938f65597e3682fddcf",
-        "bitmapResolution": 1,
-        "dataFormat": "svg",
-        "md5ext": "64025bdca5db4938f65597e3682fddcf.svg",
-        "rotationCenterX": 240,
-        "rotationCenterY": 180
-    },
-    {
-        "name": "Light",
-        "tags": [
-            "patterns"
-        ],
-        "assetId": "4b98c07876ed8997c3762e75790507b4",
-        "bitmapResolution": 1,
-        "dataFormat": "svg",
-        "md5ext": "4b98c07876ed8997c3762e75790507b4.svg",
-        "rotationCenterX": 240,
-        "rotationCenterY": 180
-    },
-    {
-        "name": "Metro",
-        "tags": [
-            "outdoors",
-            "city",
-            "urban"
-        ],
-        "assetId": "0b4a15ba028bf205ec051390d6ac4de7",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "0b4a15ba028bf205ec051390d6ac4de7.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Moon",
-        "tags": [
-            "space",
-            "nasa",
-            "apollo"
-        ],
-        "assetId": "0b1d2eaf22d62ef88de80ccde5578fba",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "0b1d2eaf22d62ef88de80ccde5578fba.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Mountain",
-        "tags": [
-            "outdoors",
-            "snow",
-            "cave",
-            "robert hunter"
-        ],
-        "assetId": "f84989feee2cf462a1c597169777ee3c",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "f84989feee2cf462a1c597169777ee3c.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Mural",
-        "tags": [
-            "outdoors",
-            "mural",
-            "graffiti",
-            "street",
-            "art"
-        ],
-        "assetId": "efb625f7e0b199b15f69e116cd053cea",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "efb625f7e0b199b15f69e116cd053cea.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Nebula",
-        "tags": [
-            "space",
-            "nasa",
-            "bubble",
-            "hubble"
-        ],
-        "assetId": "9b5cdbd596da1b6149f56b794b6394f4",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "9b5cdbd596da1b6149f56b794b6394f4.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Neon Tunnel",
-        "tags": [
-            "games",
-            "game",
-            "space"
-        ],
-        "assetId": "57d2b13b2f73d3d878c72810c137b0d6",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "57d2b13b2f73d3d878c72810c137b0d6.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Night City",
-        "tags": [
-            "outdoors",
-            "urban",
-            "city",
-            "metro"
-        ],
-        "assetId": "6fdc795ff487204f72740567be5f64f9",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "6fdc795ff487204f72740567be5f64f9.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Night City With Street",
-        "tags": [
-            "urban",
-            "city",
-            "metro",
-            "transportation"
-        ],
-        "assetId": "14443ad7907b6479d7562a12b8ae0efb",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "14443ad7907b6479d7562a12b8ae0efb.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Party",
-        "tags": [
-            "indoors",
-            "inflatable"
-        ],
-        "assetId": "108160d0e44d1c340182e31c9dc0758a",
-        "bitmapResolution": 1,
-        "dataFormat": "svg",
-        "md5ext": "108160d0e44d1c340182e31c9dc0758a.svg",
-        "rotationCenterX": 240,
-        "rotationCenterY": 180
-    },
-    {
-        "name": "Pathway",
-        "tags": [
-            "outdoors",
-            "garden"
-        ],
-        "assetId": "5d747ec036755a4b129f0d5b978bc61c",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "5d747ec036755a4b129f0d5b978bc61c.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Playground",
-        "tags": [
-            "outdoors",
-            "play"
-        ],
-        "assetId": "e5f794c8756ca0cead5cb7e7fe354c41",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "e5f794c8756ca0cead5cb7e7fe354c41.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Playing Field",
-        "tags": [
-            "outdoors",
-            "sports"
-        ],
-        "assetId": "2de108f3098e92f5c5976cf75d38e99d",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "2de108f3098e92f5c5976cf75d38e99d.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Pool",
-        "tags": [
-            "outdoors",
-            "sports",
-            "swim",
-            "swimming"
-        ],
-        "assetId": "6cab934df643d2fc508cfa90c0c4059b",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "6cab934df643d2fc508cfa90c0c4059b.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Rays",
-        "tags": [
-            "patterns",
-            "raimondious"
-        ],
-        "assetId": "87e963282db9e020e8c4d075891ea12b",
-        "bitmapResolution": 1,
-        "dataFormat": "svg",
-        "md5ext": "87e963282db9e020e8c4d075891ea12b.svg",
-        "rotationCenterX": 240.1199951171875,
-        "rotationCenterY": 180
-    },
-    {
-        "name": "Refrigerator",
-        "tags": [
-            "food",
-            "indoors",
-            "alex eben meyer"
-        ],
-        "assetId": "98f053f9681e872f34fafd783ce72205",
-        "bitmapResolution": 1,
-        "dataFormat": "svg",
-        "md5ext": "98f053f9681e872f34fafd783ce72205.svg",
-        "rotationCenterX": 240,
-        "rotationCenterY": 180
-    },
-    {
-        "name": "Room 1",
-        "tags": [
-            "indoors",
-            "books",
-            "library"
-        ],
-        "assetId": "a81668321aa3dcc0fc185d3e36ae76f6",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "a81668321aa3dcc0fc185d3e36ae76f6.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Room 2",
-        "tags": [
-            "indoors"
-        ],
-        "assetId": "05ae3e3bbea890a6e3552ffe8456775e",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "05ae3e3bbea890a6e3552ffe8456775e.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Savanna",
-        "tags": [
-            "africa",
-            "savanna",
-            "savanah",
-            "outdoors",
-            "robert hunter"
-        ],
-        "assetId": "9b020b8c7cb6a9592f7303add9441d8f",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "9b020b8c7cb6a9592f7303add9441d8f.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "School",
-        "tags": [
-            "outdoors",
-            "building",
-            "education",
-            "learning"
-        ],
-        "assetId": "1dea69ac0f62cf538d368a7bde1372ac",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "1dea69ac0f62cf538d368a7bde1372ac.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Slopes",
-        "tags": [
-            "outdoors",
-            "winter",
-            "ski",
-            "snowboard",
-            "cold",
-            "snow"
-        ],
-        "assetId": "63b6a69594a0a87888b56244bfa2ac1b",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "63b6a69594a0a87888b56244bfa2ac1b.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Soccer",
-        "tags": [
-            "soccer",
-            "football",
-            "sports",
-            "alex eben meyer"
-        ],
-        "assetId": "04a63154f04b09494354090f7cc2f1b9",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "04a63154f04b09494354090f7cc2f1b9.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Soccer 2",
-        "tags": [
-            "soccer",
-            "football",
-            "sports",
-            "alex eben meyer"
-        ],
-        "assetId": "b0dc1268cb595aaeef405bce40d1639c",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "b0dc1268cb595aaeef405bce40d1639c.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Space",
-        "tags": [
-            "space",
-            "moon",
-            "science fiction",
-            "planet",
-            "wren mcdonald"
-        ],
-        "assetId": "84208d9a3718ec3c9fc5a32a792fa1d0",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "84208d9a3718ec3c9fc5a32a792fa1d0.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Space City 1",
-        "tags": [
-            "space",
-            "moon",
-            "science fiction",
-            "planet",
-            "wren mcdonald"
-        ],
-        "assetId": "20344b0edcc498281e4cb80242a72667",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "20344b0edcc498281e4cb80242a72667.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Space City 2",
-        "tags": [
-            "space",
-            "moon",
-            "science fiction",
-            "planet",
-            "wren mcdonald"
-        ],
-        "assetId": "32b2316fd375faa18088f6c57ebb1c8d",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "32b2316fd375faa18088f6c57ebb1c8d.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Spaceship",
-        "tags": [
-            "space",
-            "moon",
-            "science fiction",
-            "planet",
-            "wren mcdonald"
-        ],
-        "assetId": "0c450891306fa63ef02aa0fda7fd0ef9",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "0c450891306fa63ef02aa0fda7fd0ef9.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Spotlight",
-        "tags": [
-            "music",
-            "dance"
-        ],
-        "assetId": "d26bf4c3980163d9106625cc2ea6c50d",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "d26bf4c3980163d9106625cc2ea6c50d.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Stars",
-        "tags": [
-            "space",
-            "nasa"
-        ],
-        "assetId": "47282ff0f7047c6fab9c94b531abf721",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "47282ff0f7047c6fab9c94b531abf721.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Stripes",
-        "tags": [
-            "patterns"
-        ],
-        "assetId": "a6a21f5c08d586e8daaebde37c97fb6f",
-        "bitmapResolution": 1,
-        "dataFormat": "svg",
-        "md5ext": "a6a21f5c08d586e8daaebde37c97fb6f.svg",
-        "rotationCenterX": 240,
-        "rotationCenterY": 180
-    },
-    {
-        "name": "Theater",
-        "tags": [
-            "indoors",
-            "music",
-            "andrew rae"
-        ],
-        "assetId": "c2b097bc5cdb6a14ef5485202bc5ee76",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "c2b097bc5cdb6a14ef5485202bc5ee76.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Theater 2",
-        "tags": [
-            "music"
-        ],
-        "assetId": "061a78ed83495dd0acd6d62e83e1b972",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "061a78ed83495dd0acd6d62e83e1b972.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Tree",
-        "tags": [
-            "outdoors",
-            "nature"
-        ],
-        "assetId": "a23fbf972001c94637b568992f8fd7bd",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "a23fbf972001c94637b568992f8fd7bd.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Underwater 1",
-        "tags": [
-            "ocean",
-            "outdoors",
-            "underwater",
-            "ipzy"
-        ],
-        "assetId": "d3344650f594bcecdf46aa4a9441badd",
-        "bitmapResolution": 1,
-        "dataFormat": "svg",
-        "md5ext": "d3344650f594bcecdf46aa4a9441badd.svg",
-        "rotationCenterX": 240,
-        "rotationCenterY": 180
-    },
-    {
-        "name": "Underwater 2",
-        "tags": [
-            "outdoors",
-            "nature",
-            "underwater"
-        ],
-        "assetId": "1517c21786d2d0edc2f3037408d850bd",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "1517c21786d2d0edc2f3037408d850bd.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Urban",
-        "tags": [
-            "outdoors",
-            "city",
-            "metro",
-            "transportation"
-        ],
-        "assetId": "1679049718869e1f548e1e8823e29c1c",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "1679049718869e1f548e1e8823e29c1c.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Wall 1",
-        "tags": [
-            "outdoors",
-            "brick"
-        ],
-        "assetId": "7e5327c68ff6ddabc48dbfe4717a04fe",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "7e5327c68ff6ddabc48dbfe4717a04fe.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Wall 2",
-        "tags": [
-            "outdoors",
-            "brick"
-        ],
-        "assetId": "82d867fcd9f1b5f49e29c2f853d55665",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "82d867fcd9f1b5f49e29c2f853d55665.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Water And Rocks",
-        "tags": [
-            "outdoors",
-            "nature",
-            "tree",
-            "river",
-            "stream"
-        ],
-        "assetId": "0015433a406a53f00b792424b823268c",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "0015433a406a53f00b792424b823268c.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Wetland",
-        "tags": [
-            "outdoor",
-            "nature",
-            "swamp",
-            "wetland",
-            "owen davey"
-        ],
-        "assetId": "ef9973bcff6d4cbc558e946028ec7d23",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "ef9973bcff6d4cbc558e946028ec7d23.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Winter",
-        "tags": [
-            "outdoors",
-            "trees",
-            "forest",
-            "winter"
-        ],
-        "assetId": "5fa9385a60b904672d0e46e9d768bb32",
-        "bitmapResolution": 1,
-        "dataFormat": "svg",
-        "md5ext": "5fa9385a60b904672d0e46e9d768bb32.svg",
-        "rotationCenterX": 240,
-        "rotationCenterY": 180
-    },
-    {
-        "name": "Witch House",
-        "tags": [
-            "fantasy",
-            "indoors",
-            "ipzy"
-        ],
-        "assetId": "30085b2d27beb5acdbe895d8b3e64b04",
-        "bitmapResolution": 1,
-        "dataFormat": "svg",
-        "md5ext": "30085b2d27beb5acdbe895d8b3e64b04.svg",
-        "rotationCenterX": 240,
-        "rotationCenterY": 180
-    },
-    {
-        "name": "Woods",
-        "tags": [
-            "fantasy",
-            "spooky",
-            "halloween",
-            "outdoors",
-            "haunted",
-            "forest",
-            "alex eben meyer"
-        ],
-        "assetId": "f3eb165d6f3fd23370f97079f2e631bf",
-        "bitmapResolution": 1,
-        "dataFormat": "svg",
-        "md5ext": "f3eb165d6f3fd23370f97079f2e631bf.svg",
-        "rotationCenterX": 240,
-        "rotationCenterY": 180
-    },
-    {
-        "name": "Woods And Bench",
-        "tags": [
-            "outdoors",
-            "park"
-        ],
-        "assetId": "4fcf7ed0de6c6b6e9b52c511b0650e9c",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "4fcf7ed0de6c6b6e9b52c511b0650e9c.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Xy-grid",
-        "tags": [
-            "grid",
-            "xy",
-            "coordinates"
-        ],
-        "assetId": "9838d02002d05f88dc54d96494fbc202",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "9838d02002d05f88dc54d96494fbc202.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Xy-grid-20px",
-        "tags": [
-            "grid",
-            "xy",
-            "coordinates"
-        ],
-        "assetId": "4eec0e1db92b8dea3e5bee25105e8f46",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "4eec0e1db92b8dea3e5bee25105e8f46.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    },
-    {
-        "name": "Xy-grid-30px",
-        "tags": [
-            "grid",
-            "xy",
-            "coordinates"
-        ],
-        "assetId": "3b8bcabd0ac683b7cb3673208039764b",
-        "bitmapResolution": 2,
-        "dataFormat": "png",
-        "md5ext": "3b8bcabd0ac683b7cb3673208039764b.png",
-        "rotationCenterX": 480,
-        "rotationCenterY": 360
-    }
+	{
+		"name": "坦克大战3",
+		"tags": [
+			"游戏主题"
+		],
+		"assetId": "fc067ceaad89568f1fac14367b38c6b5",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "fc067ceaad89568f1fac14367b38c6b5.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "秘境幽灵封面",
+		"tags": [
+			"游戏主题"
+		],
+		"assetId": "f6407ba857add7c17dcaadb3dd28933d",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "f6407ba857add7c17dcaadb3dd28933d.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "秘境幽灵",
+		"tags": [
+			"游戏主题"
+		],
+		"assetId": "7baaf6a16d590a364ee779aa46def8e4",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "7baaf6a16d590a364ee779aa46def8e4.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "飞机大战封面",
+		"tags": [
+			"游戏主题"
+		],
+		"assetId": "0f9c56313c964c74def2ce20086dc6e1",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "0f9c56313c964c74def2ce20086dc6e1.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "捕鱼达人5",
+		"tags": [
+			"游戏主题"
+		],
+		"assetId": "f986ff46962199dcd2579c06963964ea",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "f986ff46962199dcd2579c06963964ea.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "怪物大战2",
+		"tags": [
+			"游戏主题"
+		],
+		"assetId": "c389038e6aeace6b55d9563e6a227f11",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "c389038e6aeace6b55d9563e6a227f11.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "找茬游戏5",
+		"tags": [
+			"游戏主题"
+		],
+		"assetId": "4fc970504a0195709558125244f3b6f0",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "4fc970504a0195709558125244f3b6f0.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "老鼠迷宫游戏",
+		"tags": [
+			"游戏主题"
+		],
+		"assetId": "f6449f18137c4e4c751c707680357fea",
+		"bitmapResolution": 2,
+		"dataFormat": "jpg",
+		"md5ext": "f6449f18137c4e4c751c707680357fea.jpg",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "卡丁车游戏",
+		"tags": [
+			"游戏主题"
+		],
+		"assetId": "2a76afe423cf775fbe581786c0adc5c3",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "2a76afe423cf775fbe581786c0adc5c3.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "捕鱼达人3",
+		"tags": [
+			"游戏主题"
+		],
+		"assetId": "c766a97bf573f9553a474a97bd99737e",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "c766a97bf573f9553a474a97bd99737e.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "坦克大战1",
+		"tags": [
+			"游戏主题"
+		],
+		"assetId": "46fbf6ce9d684a815f36a67e05baff4c",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "46fbf6ce9d684a815f36a67e05baff4c.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "坦克大战4",
+		"tags": [
+			"游戏主题"
+		],
+		"assetId": "8f1ecf68b918d03ae305209e95971580",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "8f1ecf68b918d03ae305209e95971580.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "跳一跳封面",
+		"tags": [
+			"游戏主题"
+		],
+		"assetId": "2545c0c36d2cd74d245e4902a16d56db",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "2545c0c36d2cd74d245e4902a16d56db.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "逃生跑酷3",
+		"tags": [
+			"游戏主题"
+		],
+		"assetId": "49fddceabcc6f27c48fd55abc5368dc6",
+		"bitmapResolution": 2,
+		"dataFormat": "jpg",
+		"md5ext": "49fddceabcc6f27c48fd55abc5368dc6.jpg",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "植物大战僵尸 2",
+		"tags": [
+			"游戏主题"
+		],
+		"assetId": "9fca0adcaf8ec1f3127de2b72e50cd74",
+		"bitmapResolution": 2,
+		"dataFormat": "jpg",
+		"md5ext": "9fca0adcaf8ec1f3127de2b72e50cd74.jpg",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "变身游戏封面",
+		"tags": [
+			"游戏主题"
+		],
+		"assetId": "0397ccbfa91236ff8856503ad8472c3b",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "0397ccbfa91236ff8856503ad8472c3b.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "求生打枪",
+		"tags": [
+			"游戏主题"
+		],
+		"assetId": "b18ee3a27f8cf41726833f9d28d88534",
+		"bitmapResolution": 2,
+		"dataFormat": "jpg",
+		"md5ext": "b18ee3a27f8cf41726833f9d28d88534.jpg",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "找茬游戏6",
+		"tags": [
+			"游戏主题"
+		],
+		"assetId": "5d2bdbf22b8bd337bc4fda02e005248a",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "5d2bdbf22b8bd337bc4fda02e005248a.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "打砖块游戏",
+		"tags": [
+			"游戏主题"
+		],
+		"assetId": "e3f9393770c3e1a823c5633057357bc8",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "e3f9393770c3e1a823c5633057357bc8.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "找茬游戏2",
+		"tags": [
+			"游戏主题"
+		],
+		"assetId": "e82c2f57e41bbd77fd72f2fe463d5870",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "e82c2f57e41bbd77fd72f2fe463d5870.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "坦克大战2",
+		"tags": [
+			"游戏主题"
+		],
+		"assetId": "6384a10a6b1ec6bfa539c1d7510b54e2",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "6384a10a6b1ec6bfa539c1d7510b54e2.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "末地之路",
+		"tags": [
+			"游戏主题"
+		],
+		"assetId": "4a832a5a601f4141099c7a08efbad94e",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "4a832a5a601f4141099c7a08efbad94e.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "找茬游戏3",
+		"tags": [
+			"游戏主题"
+		],
+		"assetId": "28a5afa07dc68f3362c6f70af0faaee0",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "28a5afa07dc68f3362c6f70af0faaee0.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "飞机大战1",
+		"tags": [
+			"游戏主题"
+		],
+		"assetId": "08caed91287fd478227c8cb851271e74",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "08caed91287fd478227c8cb851271e74.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "植物大战僵尸 1",
+		"tags": [
+			"游戏主题"
+		],
+		"assetId": "3c1e592a84154f84a69e27cb53462ddd",
+		"bitmapResolution": 2,
+		"dataFormat": "jpg",
+		"md5ext": "3c1e592a84154f84a69e27cb53462ddd.jpg",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "怪物大战1",
+		"tags": [
+			"游戏主题"
+		],
+		"assetId": "5be021c4b57f03d80038e589fc960d20",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "5be021c4b57f03d80038e589fc960d20.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "捕鱼达人2",
+		"tags": [
+			"游戏主题"
+		],
+		"assetId": "8c9bb0739a62cc88b5a4961508778e50",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "8c9bb0739a62cc88b5a4961508778e50.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "记忆游戏",
+		"tags": [
+			"游戏主题"
+		],
+		"assetId": "660b760bcf79f4f4cd0ba2d2e7fa1857",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "660b760bcf79f4f4cd0ba2d2e7fa1857.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "跳一跳",
+		"tags": [
+			"游戏主题"
+		],
+		"assetId": "ee2910abf7119948885b293aa4cbf6c7",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "ee2910abf7119948885b293aa4cbf6c7.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "迷宫游戏",
+		"tags": [
+			"游戏主题"
+		],
+		"assetId": "f94868984b987ee83b1634ce161c332e",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "f94868984b987ee83b1634ce161c332e.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "进击的小鸟",
+		"tags": [
+			"游戏主题"
+		],
+		"assetId": "0e279859162f88522bdc40d725041302",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "0e279859162f88522bdc40d725041302.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "捕鱼达人4",
+		"tags": [
+			"游戏主题"
+		],
+		"assetId": "248ce356d664ed79f23ff025676685b5",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "248ce356d664ed79f23ff025676685b5.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "逃生跑酷2",
+		"tags": [
+			"游戏主题"
+		],
+		"assetId": "e684784243a45f2de405f6975b0cc84b",
+		"bitmapResolution": 2,
+		"dataFormat": "jpg",
+		"md5ext": "e684784243a45f2de405f6975b0cc84b.jpg",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "逃生跑酷",
+		"tags": [
+			"游戏主题"
+		],
+		"assetId": "754aa7c89f7bfad89ce7aaf20ce2e756",
+		"bitmapResolution": 2,
+		"dataFormat": "jpg",
+		"md5ext": "754aa7c89f7bfad89ce7aaf20ce2e756.jpg",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "怪物大战4",
+		"tags": [
+			"游戏主题"
+		],
+		"assetId": "95a0a4e1a6f40ebdc317c21e0bb0d566",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "95a0a4e1a6f40ebdc317c21e0bb0d566.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "捕鱼达人1",
+		"tags": [
+			"游戏主题"
+		],
+		"assetId": "e22eb9bd863521ca001cfa40436a9a50",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "e22eb9bd863521ca001cfa40436a9a50.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "水果忍者",
+		"tags": [
+			"游戏主题"
+		],
+		"assetId": "c51dd4488138a47162a951c4c0296379",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "c51dd4488138a47162a951c4c0296379.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "飞机大战2",
+		"tags": [
+			"游戏主题"
+		],
+		"assetId": "896ed09e6b70289bf2fe98b335d3dd28",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "896ed09e6b70289bf2fe98b335d3dd28.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "飞机大战4",
+		"tags": [
+			"游戏主题"
+		],
+		"assetId": "f8bf36baefe4b2e75868453a837d6dcd",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "f8bf36baefe4b2e75868453a837d6dcd.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "飞机大战3",
+		"tags": [
+			"游戏主题"
+		],
+		"assetId": "e89a8e9711830b6c65e54eda8505d133",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "e89a8e9711830b6c65e54eda8505d133.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "找茬游戏4",
+		"tags": [
+			"游戏主题"
+		],
+		"assetId": "979486c8d27754533d41c0f6310c1761",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "979486c8d27754533d41c0f6310c1761.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "怪物大战3",
+		"tags": [
+			"游戏主题"
+		],
+		"assetId": "90634c69e5e5536f0528ba1bb5b50774",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "90634c69e5e5536f0528ba1bb5b50774.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "找茬游戏1",
+		"tags": [
+			"游戏主题"
+		],
+		"assetId": "4954a86ba703a65fddcb3af5ec96c2cf",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "4954a86ba703a65fddcb3af5ec96c2cf.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "房间内1",
+		"tags": [
+			"室内"
+		],
+		"assetId": "e2f8b0dbd0a65d2ad8bfc21616662a6a",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "e2f8b0dbd0a65d2ad8bfc21616662a6a.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "圣诞树",
+		"tags": [
+			"室内"
+		],
+		"assetId": "1dcaf23953295ca8542b57315bf284f2",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "1dcaf23953295ca8542b57315bf284f2.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "绿色舞台",
+		"tags": [
+			"室内"
+		],
+		"assetId": "92bb5e11aee1e29cd312d6099b33dd9b",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "92bb5e11aee1e29cd312d6099b33dd9b.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "城堡4",
+		"tags": [
+			"室内"
+		],
+		"assetId": "3791912ca74ddf14fa141864ae36dc5f",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "3791912ca74ddf14fa141864ae36dc5f.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "房间5",
+		"tags": [
+			"室内"
+		],
+		"assetId": "ee70d93f088d14a04a06b7e1cba82bb0",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "ee70d93f088d14a04a06b7e1cba82bb0.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "舞台2",
+		"tags": [
+			"室内"
+		],
+		"assetId": "b8eb6bb0bbb2df3469f14cbe2abe3ad2",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "b8eb6bb0bbb2df3469f14cbe2abe3ad2.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "电影院内",
+		"tags": [
+			"室内"
+		],
+		"assetId": "fa815581f8cd4ec7e85c26cb4cf88aa7",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "fa815581f8cd4ec7e85c26cb4cf88aa7.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "教室",
+		"tags": [
+			"室内"
+		],
+		"assetId": "a8a24b5aa717bbef09dbe31368914427",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "a8a24b5aa717bbef09dbe31368914427.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "厨房",
+		"tags": [
+			"室内"
+		],
+		"assetId": "45b7a3e15461163953aa35021cad7087",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "45b7a3e15461163953aa35021cad7087.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "房间内2",
+		"tags": [
+			"室内"
+		],
+		"assetId": "8cc0b88d53345b3e337e8f028a32a4e7",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "8cc0b88d53345b3e337e8f028a32a4e7.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "红色舞台",
+		"tags": [
+			"室内"
+		],
+		"assetId": "32db9bbfdcd17f8e7be025a407cd8ae4",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "32db9bbfdcd17f8e7be025a407cd8ae4.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "party room",
+		"tags": [
+			"室内"
+		],
+		"assetId": "9aeff3d99d0a1845ad46955c8820cb5e",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "9aeff3d99d0a1845ad46955c8820cb5e.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "房间3",
+		"tags": [
+			"室内"
+		],
+		"assetId": "a81668321aa3dcc0fc185d3e36ae76f6",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "a81668321aa3dcc0fc185d3e36ae76f6.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "舞台3",
+		"tags": [
+			"室内"
+		],
+		"assetId": "4d1d37fb9d18a02aa02eb82cf4f82a97",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "4d1d37fb9d18a02aa02eb82cf4f82a97.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "舞台1",
+		"tags": [
+			"室内"
+		],
+		"assetId": "c3bbe9401bb111285037a3f9906f0d49",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "c3bbe9401bb111285037a3f9906f0d49.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "房间4",
+		"tags": [
+			"室内"
+		],
+		"assetId": "ebd5f00db1e4d40a65548f5997ade497",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "ebd5f00db1e4d40a65548f5997ade497.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "音乐舞台",
+		"tags": [
+			"室内"
+		],
+		"assetId": "d26bf4c3980163d9106625cc2ea6c50d",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "d26bf4c3980163d9106625cc2ea6c50d.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "太空",
+		"tags": [
+			"太空"
+		],
+		"assetId": "5ded9ed0736485cd7037088b45b0b298",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "5ded9ed0736485cd7037088b45b0b298.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "星空2",
+		"tags": [
+			"太空"
+		],
+		"assetId": "0a08a2ea478ce1286bb7ed16e694d148",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "0a08a2ea478ce1286bb7ed16e694d148.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "星空1",
+		"tags": [
+			"太空"
+		],
+		"assetId": "2d736031c257218ea76547e30e2ec4af",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "2d736031c257218ea76547e30e2ec4af.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "星空",
+		"tags": [
+			"太空"
+		],
+		"assetId": "a51e2ff245b793cd382717c24dd119a3",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "a51e2ff245b793cd382717c24dd119a3.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "火星",
+		"tags": [
+			"太空"
+		],
+		"assetId": "b02a823e2d7c1b8525b4c85833ac3324",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "b02a823e2d7c1b8525b4c85833ac3324.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "地球与太空",
+		"tags": [
+			"太空"
+		],
+		"assetId": "905841551bef518c1b3c178e059f3107",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "905841551bef518c1b3c178e059f3107.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "小河",
+		"tags": [
+			"郊外"
+		],
+		"assetId": "f30ab063e8d29680bebfad47b9f541f9",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "f30ab063e8d29680bebfad47b9f541f9.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "水下3",
+		"tags": [
+			"郊外"
+		],
+		"assetId": "d33632280d4f390f1d15ee75b983c16b",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "d33632280d4f390f1d15ee75b983c16b.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "郊外背景",
+		"tags": [
+			"郊外"
+		],
+		"assetId": "0ce5b40b98c0e2548c6425983c08a8c9",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "0ce5b40b98c0e2548c6425983c08a8c9.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "水下2",
+		"tags": [
+			"郊外"
+		],
+		"assetId": "35a90d6d73c9b0305e7ea98b2ad2c502",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "35a90d6d73c9b0305e7ea98b2ad2c502.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "野外背景",
+		"tags": [
+			"郊外"
+		],
+		"assetId": "bfdf27f49edcf6ca6fb76050f589acdc",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "bfdf27f49edcf6ca6fb76050f589acdc.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "山",
+		"tags": [
+			"郊外"
+		],
+		"assetId": "f55c24d1f0dd76ba47d11ceb3af44474",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "f55c24d1f0dd76ba47d11ceb3af44474.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "树林",
+		"tags": [
+			"郊外"
+		],
+		"assetId": "7569ef3925eeb29e16ff305ebfc5ba45",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "7569ef3925eeb29e16ff305ebfc5ba45.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "山野丛林",
+		"tags": [
+			"郊外"
+		],
+		"assetId": "a7156907bc4d077b1b5f7011d6412f06",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "a7156907bc4d077b1b5f7011d6412f06.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "废墟",
+		"tags": [
+			"郊外"
+		],
+		"assetId": "cfe2ae68d6094408b4f5ba2e5052a4ac",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "cfe2ae68d6094408b4f5ba2e5052a4ac.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "野外",
+		"tags": [
+			"郊外"
+		],
+		"assetId": "f5baecfe8dcbe4c0988882cc6c04de7b",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "f5baecfe8dcbe4c0988882cc6c04de7b.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "山坡",
+		"tags": [
+			"郊外"
+		],
+		"assetId": "fd2be1f4dde1ae17a312bf186928ec79",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "fd2be1f4dde1ae17a312bf186928ec79.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "湖泊",
+		"tags": [
+			"郊外"
+		],
+		"assetId": "cd7bd7c5023521afaa6669261315399e",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "cd7bd7c5023521afaa6669261315399e.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "糖果屋",
+		"tags": [
+			"郊外"
+		],
+		"assetId": "ac09d761413b8195da247d41c682a8fc",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "ac09d761413b8195da247d41c682a8fc.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "大峡谷",
+		"tags": [
+			"郊外"
+		],
+		"assetId": "b23d06bdfdd302315734b6db058914d0",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "b23d06bdfdd302315734b6db058914d0.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "水下1",
+		"tags": [
+			"郊外"
+		],
+		"assetId": "9d8edc5222a5580848f2dfcb7814689d",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "9d8edc5222a5580848f2dfcb7814689d.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "森林",
+		"tags": [
+			"郊外"
+		],
+		"assetId": "d67f9facd878843bdf2a004a7b0ba1fc",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "d67f9facd878843bdf2a004a7b0ba1fc.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "沙漠1",
+		"tags": [
+			"郊外"
+		],
+		"assetId": "d98a9526a34890cf4bad11b5409eae2a",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "d98a9526a34890cf4bad11b5409eae2a.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "树林1",
+		"tags": [
+			"郊外"
+		],
+		"assetId": "a50c3550f948b17817504b0b32cdc6a0",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "a50c3550f948b17817504b0b32cdc6a0.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "郊外",
+		"tags": [
+			"郊外"
+		],
+		"assetId": "3781e3f1fac42c467570a6f059085f0f",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "3781e3f1fac42c467570a6f059085f0f.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "乡村",
+		"tags": [
+			"郊外"
+		],
+		"assetId": "c36ac9d0a82679159405645e48fe024e",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "c36ac9d0a82679159405645e48fe024e.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "波浪",
+		"tags": [
+			"郊外"
+		],
+		"assetId": "deb02f8ebce15e748c5cf1a10f99c4b0",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "deb02f8ebce15e748c5cf1a10f99c4b0.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "沙漠2",
+		"tags": [
+			"郊外"
+		],
+		"assetId": "49686ff2cb4a72b5eaa514a3a2e4a600",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "49686ff2cb4a72b5eaa514a3a2e4a600.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "后台",
+		"tags": [],
+		"assetId": "155105604cbcbfcf75c341a7c239d05f",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "155105604cbcbfcf75c341a7c239d05f.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "草地",
+		"tags": [],
+		"assetId": "3b97b5baa0a8306d764fae86830e6ab4",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "3b97b5baa0a8306d764fae86830e6ab4.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "宣纸",
+		"tags": [],
+		"assetId": "1a0a0062a492d9f5f972c81fa2b5a40b",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "1a0a0062a492d9f5f972c81fa2b5a40b.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "森林夜晚",
+		"tags": [],
+		"assetId": "8e2d85b84e8563107ef3aff1675cd529",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "8e2d85b84e8563107ef3aff1675cd529.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "节奏大师胜利",
+		"tags": [],
+		"assetId": "5401b5553f28d2c665b43e4ea20e2495",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "5401b5553f28d2c665b43e4ea20e2495.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "地点",
+		"tags": [],
+		"assetId": "ce46e82ee18ca33c4aeb487a357d79e6",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "ce46e82ee18ca33c4aeb487a357d79e6.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "蒙娜丽莎",
+		"tags": [],
+		"assetId": "912870908f2291815c4c029383d21e59",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "912870908f2291815c4c029383d21e59.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "表演舞台",
+		"tags": [],
+		"assetId": "683d385dd421af41f6c7a2517bbea14f",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "683d385dd421af41f6c7a2517bbea14f.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "第2关",
+		"tags": [],
+		"assetId": "69d0ff69cbeb97d31542335e9c640aed",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "69d0ff69cbeb97d31542335e9c640aed.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "皮埃罗",
+		"tags": [],
+		"assetId": "0a89e5d020bbbc1cda39f8fb512b0ef9",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "0a89e5d020bbbc1cda39f8fb512b0ef9.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "空白背景",
+		"tags": [],
+		"assetId": "b61b1077b0ea1931abee9dbbfa7903ff",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "b61b1077b0ea1931abee9dbbfa7903ff.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "服装店",
+		"tags": [],
+		"assetId": "a1606cc8edac45d7d7c8b3f3a02bb054",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "a1606cc8edac45d7d7c8b3f3a02bb054.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "达芬奇密码",
+		"tags": [],
+		"assetId": "535a82f6ebfe26764871587177002e1d",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "535a82f6ebfe26764871587177002e1d.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "蒙娜丽莎画家",
+		"tags": [],
+		"assetId": "32fa1224781bac7f798f32e5418841ba",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "32fa1224781bac7f798f32e5418841ba.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "XY坐标背景",
+		"tags": [],
+		"assetId": "9838d02002d05f88dc54d96494fbc202",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "9838d02002d05f88dc54d96494fbc202.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "谢谢参观",
+		"tags": [],
+		"assetId": "2d332f6d7612bcdf5e96386b5313050d",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "2d332f6d7612bcdf5e96386b5313050d.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "城市街景",
+		"tags": [],
+		"assetId": "ece5d11f3537160096a25ebc1f6cab15",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "ece5d11f3537160096a25ebc1f6cab15.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "舞台2",
+		"tags": [],
+		"assetId": "74d3729b0c53803ae1f1031f04c6b97d",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "74d3729b0c53803ae1f1031f04c6b97d.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "游客须知",
+		"tags": [],
+		"assetId": "c7067ff77ac6d72eae9ecd1bd23850d3",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "c7067ff77ac6d72eae9ecd1bd23850d3.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "钢琴背景",
+		"tags": [],
+		"assetId": "cca444dc09c8b251eeb387259f59c653",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "cca444dc09c8b251eeb387259f59c653.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "通过考验",
+		"tags": [],
+		"assetId": "90cda29e7315af8404c39ea3c559d5ed",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "90cda29e7315af8404c39ea3c559d5ed.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "水彩纸",
+		"tags": [],
+		"assetId": "d144608b1eff3a395635599835bf1844",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "d144608b1eff3a395635599835bf1844.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "节奏大师失败",
+		"tags": [],
+		"assetId": "8023250f176109dae0b9a0a9a3990b7b",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "8023250f176109dae0b9a0a9a3990b7b.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "宰相洛兰的圣母",
+		"tags": [],
+		"assetId": "26e37a0d48f9404385e2e55967e65ddc",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "26e37a0d48f9404385e2e55967e65ddc.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "快乐花园",
+		"tags": [],
+		"assetId": "062da9cd6bad1e938f3272dd8a154b24",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "062da9cd6bad1e938f3272dd8a154b24.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "素材纸",
+		"tags": [],
+		"assetId": "8bdf77c5db1d2a9b048a91dc6fc5d567",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "8bdf77c5db1d2a9b048a91dc6fc5d567.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "准备",
+		"tags": [],
+		"assetId": "b43ca3150e5c732d1a96e9508567a8c0",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "b43ca3150e5c732d1a96e9508567a8c0.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "节奏大师",
+		"tags": [],
+		"assetId": "2a7ffbd8c42bda7d3da3ec2b67b73533",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "2a7ffbd8c42bda7d3da3ec2b67b73533.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "万圣节",
+		"tags": [
+			"郊外"
+		],
+		"assetId": "2f1f12d27bfc25f10cc2da0887b14dfb",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "2f1f12d27bfc25f10cc2da0887b14dfb.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "海滩",
+		"tags": [],
+		"assetId": "299c4da808df897f29a3e8697280dd1b",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "299c4da808df897f29a3e8697280dd1b.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "第1关",
+		"tags": [],
+		"assetId": "b089de90045a3ba4d5422adf3d7c2b19",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "b089de90045a3ba4d5422adf3d7c2b19.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "舞台1",
+		"tags": [],
+		"assetId": "3bfa7df6e32ca1ae65ef1f01ff57e2f8",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "3bfa7df6e32ca1ae65ef1f01ff57e2f8.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "卢浮宫封面",
+		"tags": [],
+		"assetId": "2fc95e34048ea153bd85d9b21bb0b950",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "2fc95e34048ea153bd85d9b21bb0b950.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "节奏大师封面",
+		"tags": [],
+		"assetId": "b5987d1cdf1cdda749f0fc989f8b404c",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "b5987d1cdf1cdda749f0fc989f8b404c.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "圣诞节背景",
+		"tags": [
+			"其他"
+		],
+		"assetId": "c387d2d581c41e6deebca3786d79670d",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "c387d2d581c41e6deebca3786d79670d.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "狗年旺旺5",
+		"tags": [
+			"其他"
+		],
+		"assetId": "283d201cd3e029949e63183f8b42ca60",
+		"bitmapResolution": 2,
+		"dataFormat": "jpg",
+		"md5ext": "283d201cd3e029949e63183f8b42ca60.jpg",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "狗年旺旺3",
+		"tags": [
+			"其他"
+		],
+		"assetId": "b764a5ac447e5f806e78e0694c1ed063",
+		"bitmapResolution": 2,
+		"dataFormat": "jpg",
+		"md5ext": "b764a5ac447e5f806e78e0694c1ed063.jpg",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "石墙方",
+		"tags": [
+			"其他"
+		],
+		"assetId": "45524b81e5e7997db293929c70969651",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "45524b81e5e7997db293929c70969651.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "石墙圆",
+		"tags": [
+			"其他"
+		],
+		"assetId": "47eef982117266e919a815f292c71384",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "47eef982117266e919a815f292c71384.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "狗年旺旺6",
+		"tags": [
+			"其他"
+		],
+		"assetId": "ff703a951aa20709e22293bb8de4cbae",
+		"bitmapResolution": 2,
+		"dataFormat": "jpg",
+		"md5ext": "ff703a951aa20709e22293bb8de4cbae.jpg",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "狗年旺旺2",
+		"tags": [
+			"其他"
+		],
+		"assetId": "ae872b56e0573fcd97cd3847ede42673",
+		"bitmapResolution": 2,
+		"dataFormat": "jpg",
+		"md5ext": "ae872b56e0573fcd97cd3847ede42673.jpg",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "狗年旺旺1",
+		"tags": [
+			"其他"
+		],
+		"assetId": "c8275e8229f5a3062ba0b8217e87d6bc",
+		"bitmapResolution": 2,
+		"dataFormat": "jpg",
+		"md5ext": "c8275e8229f5a3062ba0b8217e87d6bc.jpg",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "母亲节",
+		"tags": [
+			"其他"
+		],
+		"assetId": "446a47fc6f60ea0810031c5823d8a97c",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "446a47fc6f60ea0810031c5823d8a97c.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "狗年旺旺4",
+		"tags": [
+			"其他"
+		],
+		"assetId": "0c99ac0ad3c9a7c2a0da5f4461b4f18f",
+		"bitmapResolution": 2,
+		"dataFormat": "jpg",
+		"md5ext": "0c99ac0ad3c9a7c2a0da5f4461b4f18f.jpg",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "石墙星",
+		"tags": [
+			"其他"
+		],
+		"assetId": "0da0980988d6fe8c16d3c3e41d4e3c13",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "0da0980988d6fe8c16d3c3e41d4e3c13.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "秘境幽灵失败",
+		"tags": [
+			"成功与失败"
+		],
+		"assetId": "631dd246e07c82d4543d3b9feac1bdd7",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "631dd246e07c82d4543d3b9feac1bdd7.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "YOU WIN",
+		"tags": [
+			"成功与失败"
+		],
+		"assetId": "20aaf138604e19e6c44565a16cfb9af6",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "20aaf138604e19e6c44565a16cfb9af6.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "飞机大战成功",
+		"tags": [
+			"成功与失败"
+		],
+		"assetId": "30d02534ba6cf556ea16b51cabdd9353",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "30d02534ba6cf556ea16b51cabdd9353.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "废墟失败",
+		"tags": [
+			"成功与失败"
+		],
+		"assetId": "44c0e452eb1882d6fb28c8d1779308b2",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "44c0e452eb1882d6fb28c8d1779308b2.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "寻宝游戏失败",
+		"tags": [
+			"成功与失败"
+		],
+		"assetId": "dfc36af4e626242dfe55836710eb3880",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "dfc36af4e626242dfe55836710eb3880.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "寻宝游戏胜利",
+		"tags": [
+			"成功与失败"
+		],
+		"assetId": "679f00bff4bfb8a01504ca58e04205f0",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "679f00bff4bfb8a01504ca58e04205f0.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "YOU LOST",
+		"tags": [
+			"成功与失败"
+		],
+		"assetId": "f93bd25d75778cfc5318dad402305f6a",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "f93bd25d75778cfc5318dad402305f6a.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "秘境幽灵胜利",
+		"tags": [
+			"成功与失败"
+		],
+		"assetId": "04352941664477e49c9cd640d26a13c9",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "04352941664477e49c9cd640d26a13c9.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "废墟胜利",
+		"tags": [
+			"成功与失败"
+		],
+		"assetId": "3d98a8f5547fdc0d033ba105c85a5c1d",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "3d98a8f5547fdc0d033ba105c85a5c1d.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "飞机大战失败",
+		"tags": [
+			"成功与失败"
+		],
+		"assetId": "297c783086923e212f3c3d7bf0a5bae2",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "297c783086923e212f3c3d7bf0a5bae2.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "公路",
+		"tags": [
+			"室外"
+		],
+		"assetId": "f20025eac339317812a900f0c5f1d383",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "f20025eac339317812a900f0c5f1d383.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "比赛场地",
+		"tags": [
+			"室外"
+		],
+		"assetId": "66843038d86661445fcb96fec8cea6f9",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "66843038d86661445fcb96fec8cea6f9.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "砖墙",
+		"tags": [
+			"室外"
+		],
+		"assetId": "7e5327c68ff6ddabc48dbfe4717a04fe",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "7e5327c68ff6ddabc48dbfe4717a04fe.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "打地鼠背景",
+		"tags": [
+			"室外"
+		],
+		"assetId": "dccb5113f0fe2a9961fe5987ed5fc868",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "dccb5113f0fe2a9961fe5987ed5fc868.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "打地鼠",
+		"tags": [
+			"室外"
+		],
+		"assetId": "726dfc04dd1ba75b8b9f86ff555990fb",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "726dfc04dd1ba75b8b9f86ff555990fb.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "足球场2",
+		"tags": [
+			"室外"
+		],
+		"assetId": "cf309d6c58b0c6a657cc87f36e8bc379",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "cf309d6c58b0c6a657cc87f36e8bc379.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "夜晚城市",
+		"tags": [
+			"室外"
+		],
+		"assetId": "6fdc795ff487204f72740567be5f64f9",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "6fdc795ff487204f72740567be5f64f9.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "夜晚城市街景",
+		"tags": [
+			"室外"
+		],
+		"assetId": "14443ad7907b6479d7562a12b8ae0efb",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "14443ad7907b6479d7562a12b8ae0efb.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "学校1",
+		"tags": [
+			"室外"
+		],
+		"assetId": "1dea69ac0f62cf538d368a7bde1372ac",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "1dea69ac0f62cf538d368a7bde1372ac.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "城市1",
+		"tags": [
+			"室外"
+		],
+		"assetId": "0b4a15ba028bf205ec051390d6ac4de7",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "0b4a15ba028bf205ec051390d6ac4de7.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "彩灯冬景",
+		"tags": [
+			"室外"
+		],
+		"assetId": "a2e541b41443476cba1ab75b34b4df0c",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "a2e541b41443476cba1ab75b34b4df0c.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "球场",
+		"tags": [
+			"室外"
+		],
+		"assetId": "010fc8bb05d0c223985106013cea3438",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "010fc8bb05d0c223985106013cea3438.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "室外1",
+		"tags": [
+			"室外"
+		],
+		"assetId": "e39565c77678f8e13728771cdf3b6c77",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "e39565c77678f8e13728771cdf3b6c77.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "母亲节背景3",
+		"tags": [
+			"室外"
+		],
+		"assetId": "ab6370a5bcc99625add202bf71a10e7b",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "ab6370a5bcc99625add202bf71a10e7b.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "新年快乐",
+		"tags": [
+			"室外"
+		],
+		"assetId": "1132b5323f7738e419a397c494cbf31b",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "1132b5323f7738e419a397c494cbf31b.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "母亲节背景1",
+		"tags": [
+			"室外"
+		],
+		"assetId": "72a3ef23a51deeea01fe006da3a82a99",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "72a3ef23a51deeea01fe006da3a82a99.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "母亲节背景2",
+		"tags": [
+			"室外"
+		],
+		"assetId": "27f8ac67ce237c5dc30825ebe149982a",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "27f8ac67ce237c5dc30825ebe149982a.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "草坪",
+		"tags": [
+			"室外"
+		],
+		"assetId": "1941c2e0e57e73467843c0346cb7d7fd",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "1941c2e0e57e73467843c0346cb7d7fd.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "篮球场",
+		"tags": [
+			"室外"
+		],
+		"assetId": "03dbf71755f9e2736a85dfbaf10933f8",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "03dbf71755f9e2736a85dfbaf10933f8.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "游泳池",
+		"tags": [
+			"室外"
+		],
+		"assetId": "62c1910aaa5a81c5c650a44c577e70b5",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "62c1910aaa5a81c5c650a44c577e70b5.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "树和长椅",
+		"tags": [
+			"室外"
+		],
+		"assetId": "4fcf7ed0de6c6b6e9b52c511b0650e9c",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "4fcf7ed0de6c6b6e9b52c511b0650e9c.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "电影院外",
+		"tags": [
+			"室外"
+		],
+		"assetId": "3bcdaffb1f715926c4c2302930d4caea",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "3bcdaffb1f715926c4c2302930d4caea.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "城堡2",
+		"tags": [
+			"室外"
+		],
+		"assetId": "cb75320a2f332a629813c48a653ce444",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "cb75320a2f332a629813c48a653ce444.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "铁轨",
+		"tags": [
+			"室外"
+		],
+		"assetId": "3629e7535d317a9b1c5e8f8c86a480a2",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "3629e7535d317a9b1c5e8f8c86a480a2.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "城堡1",
+		"tags": [
+			"室外"
+		],
+		"assetId": "e1914ed7917267f1c2ef2b48004cade9",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "e1914ed7917267f1c2ef2b48004cade9.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "学校2",
+		"tags": [
+			"室外"
+		],
+		"assetId": "b4cd0404f7972aa549852b2b7fa6e081",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "b4cd0404f7972aa549852b2b7fa6e081.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "室外3",
+		"tags": [
+			"室外"
+		],
+		"assetId": "30cb580173633b45e332a54b1fea536a",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "30cb580173633b45e332a54b1fea536a.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "城堡3",
+		"tags": [
+			"室外"
+		],
+		"assetId": "7edc5e1ec42d9a76fd71784ed7004f38",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "7edc5e1ec42d9a76fd71784ed7004f38.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "冬景",
+		"tags": [
+			"室外"
+		],
+		"assetId": "127ea4dd1d0db0e0e1e148a10a761027",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "127ea4dd1d0db0e0e1e148a10a761027.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "室外2",
+		"tags": [
+			"室外"
+		],
+		"assetId": "41795eb629a8b984411dd3c1ea47757f",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "41795eb629a8b984411dd3c1ea47757f.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "城市4",
+		"tags": [
+			"室外"
+		],
+		"assetId": "1a464d0896d8974b9d707376363f4b70",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "1a464d0896d8974b9d707376363f4b70.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "房屋",
+		"tags": [
+			"室外"
+		],
+		"assetId": "1dd26c9635db97f95444ada26ca43ee9",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "1dd26c9635db97f95444ada26ca43ee9.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "足球场1",
+		"tags": [
+			"室外"
+		],
+		"assetId": "81155036ce45af8fcc0dceab08fad03f",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "81155036ce45af8fcc0dceab08fad03f.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "农场",
+		"tags": [
+			"室外"
+		],
+		"assetId": "2015e42dd67369cf7fd709cdcaface6f",
+		"bitmapResolution": 2,
+		"dataFormat": "jpg",
+		"md5ext": "2015e42dd67369cf7fd709cdcaface6f.jpg",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "深水海底",
+		"tags": [
+			"游戏主题"
+		],
+		"assetId": "b7f2cd5010143d387422f06018cdaf8c",
+		"bitmapResolution": 2,
+		"dataFormat": "jpg",
+		"md5ext": "b7f2cd5010143d387422f06018cdaf8c.jpg",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "碎痕地图",
+		"tags": [],
+		"assetId": "e4e257ca01b60c6eb53f545659b2e4cf",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "e4e257ca01b60c6eb53f545659b2e4cf.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "小球闯关1",
+		"tags": [],
+		"assetId": "f6b37c954c3127794df07ee988bf56f7",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "f6b37c954c3127794df07ee988bf56f7.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "小球闯关2",
+		"tags": [],
+		"assetId": "97ed2152caad4e8c382e3e81e9bc488c",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "97ed2152caad4e8c382e3e81e9bc488c.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "古堡内",
+		"tags": [],
+		"assetId": "0eaa9e5031083451a03331f87fa43afe",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "0eaa9e5031083451a03331f87fa43afe.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "断魂河",
+		"tags": [],
+		"assetId": "a423a4e02e7838ee9ed2e0c1d1751941",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "a423a4e02e7838ee9ed2e0c1d1751941.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "迷宫背景",
+		"tags": [],
+		"assetId": "d6be21f37794f1c10a65a42995ab0cf7",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "d6be21f37794f1c10a65a42995ab0cf7.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "幽灵谷",
+		"tags": [],
+		"assetId": "4d60914422454f8b5db9aa807b5027d1",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "4d60914422454f8b5db9aa807b5027d1.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "幽灵谷胜利",
+		"tags": [],
+		"assetId": "4b2976beb8cb92ce72de6f309553b8ce",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "4b2976beb8cb92ce72de6f309553b8ce.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "幽灵谷失败",
+		"tags": [],
+		"assetId": "41503bba88dc5285e518c1677fc2eb29",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "41503bba88dc5285e518c1677fc2eb29.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "神坛",
+		"tags": [],
+		"assetId": "8e61fc1424584b67e85d8bb485ddeec3",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "8e61fc1424584b67e85d8bb485ddeec3.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "幽灵谷2",
+		"tags": [],
+		"assetId": "b1319a333a7142ebd966a1b0e4b5d84b",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "b1319a333a7142ebd966a1b0e4b5d84b.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "幽灵谷失败2",
+		"tags": [],
+		"assetId": "9dc928380281ea1ecb038a26d1ee3b7c",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "9dc928380281ea1ecb038a26d1ee3b7c.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "田径场",
+		"tags": [],
+		"assetId": "0b911d8853402ce9cdca09b996fffdff",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "0b911d8853402ce9cdca09b996fffdff.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "游戏胜利~",
+		"tags": [],
+		"assetId": "cc8179398e31db6699923da5dddfd3c0",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "cc8179398e31db6699923da5dddfd3c0.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "龙之岛封面",
+		"tags": [],
+		"assetId": "1eb886d152dfc245eb5f60c1cda9b80f",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "1eb886d152dfc245eb5f60c1cda9b80f.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "龙之岛场景1",
+		"tags": [],
+		"assetId": "4bc04a4949f453ed943570c2c61cb7c9",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "4bc04a4949f453ed943570c2c61cb7c9.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "龙之岛场景2",
+		"tags": [],
+		"assetId": "427b8d2d7e5496d8285a21aa6b943c87",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "427b8d2d7e5496d8285a21aa6b943c87.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "龙之岛胜利",
+		"tags": [],
+		"assetId": "4cfc20e847bad2ad7e763004a36a880b",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "4cfc20e847bad2ad7e763004a36a880b.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "龙之岛结束",
+		"tags": [],
+		"assetId": "7e4648f973ae879c6c834dfc843d786c",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "7e4648f973ae879c6c834dfc843d786c.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "足球场",
+		"tags": [],
+		"assetId": "d684ce443d25d8ddd8612533af916c29",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "d684ce443d25d8ddd8612533af916c29.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "仓库",
+		"tags": [],
+		"assetId": "253e0c217ba3aeb31d9f4443ccc10c39",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "253e0c217ba3aeb31d9f4443ccc10c39.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "草坪~",
+		"tags": [],
+		"assetId": "6c4c95343d8546563cd6a2cbe4c9e45a",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "6c4c95343d8546563cd6a2cbe4c9e45a.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "找茬第一关",
+		"tags": [],
+		"assetId": "edc8b4596f8f0e5dfd5563a8eb7f003d",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "edc8b4596f8f0e5dfd5563a8eb7f003d.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "找茬第二关",
+		"tags": [],
+		"assetId": "11a4fc3ca2638adda098d84ee69be962",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "11a4fc3ca2638adda098d84ee69be962.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "记忆大师封面",
+		"tags": [],
+		"assetId": "0f1b04a1aefb493703cf8443ecbe12e6",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "0f1b04a1aefb493703cf8443ecbe12e6.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "绿茵地",
+		"tags": [],
+		"assetId": "ac8851117ced75610627d11e6da10de3",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "ac8851117ced75610627d11e6da10de3.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "小镇",
+		"tags": [],
+		"assetId": "863e7095afeac480064989bfc13bcc94",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "863e7095afeac480064989bfc13bcc94.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "山丘",
+		"tags": [],
+		"assetId": "6e31920b529d446e650a0f3511c7197d",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "6e31920b529d446e650a0f3511c7197d.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "天空~",
+		"tags": [],
+		"assetId": "d155afe8e851dd7961d3e58eb403bf8d",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "d155afe8e851dd7961d3e58eb403bf8d.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "夜路1",
+		"tags": [],
+		"assetId": "43d187d4d3cd873f06a67ca5f9d36c94",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "43d187d4d3cd873f06a67ca5f9d36c94.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "夜路2",
+		"tags": [],
+		"assetId": "6c59b1373c2791d1c48db1204d8eacff",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "6c59b1373c2791d1c48db1204d8eacff.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "切水果",
+		"tags": [],
+		"assetId": "abf312f3e9fd3ffe360b999f8166582b",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "abf312f3e9fd3ffe360b999f8166582b.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "山脚荒地",
+		"tags": [],
+		"assetId": "36f1f79407c2bde7fc24e1d80c6119df",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "36f1f79407c2bde7fc24e1d80c6119df.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "数字华容道",
+		"tags": [],
+		"assetId": "e046cd80f31e48af67b0e9f1b68ece2f",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "e046cd80f31e48af67b0e9f1b68ece2f.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "九州地图",
+		"tags": [],
+		"assetId": "2002418893ab3c3b5ea911f8e3a71ecc",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "2002418893ab3c3b5ea911f8e3a71ecc.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "伊拉斯谟像",
+		"tags": [],
+		"assetId": "aeceb873916116ed3bc9b3ac95be6ed0",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "aeceb873916116ed3bc9b3ac95be6ed0.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "flappy bird 背景",
+		"tags": [],
+		"assetId": "e876fa7b21edf9acaae1d66d43897232",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "e876fa7b21edf9acaae1d66d43897232.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "《新年贺卡》背景图",
+		"tags": [
+			"游戏主题"
+		],
+		"assetId": "b26e882eff22d05a8b9e649cb21cc5e0",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "b26e882eff22d05a8b9e649cb21cc5e0.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "收集药水",
+		"tags": [
+			"游戏主题"
+		],
+		"assetId": "895cd2849063f035c929ddad2fdbc718",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "895cd2849063f035c929ddad2fdbc718.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "菜谱",
+		"tags": [
+			"游戏主题"
+		],
+		"assetId": "7d6a3f8ec94e636c8d7d912ba4b92e27",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "7d6a3f8ec94e636c8d7d912ba4b92e27.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	},
+	{
+		"name": "番茄炒蛋背景",
+		"tags": [
+			"游戏主题"
+		],
+		"assetId": "9ce84f58dca12badab127c22dbea821b",
+		"bitmapResolution": 2,
+		"dataFormat": "png",
+		"md5ext": "9ce84f58dca12badab127c22dbea821b.png",
+		"rotationCenterX": 480,
+		"rotationCenterY": 360
+	}
 ]

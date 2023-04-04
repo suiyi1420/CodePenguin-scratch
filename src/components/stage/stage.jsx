@@ -37,6 +37,7 @@ const StageComponent = props => {
     } = props;
 
     const stageDimensions = getStageDimensions(stageSize, isFullScreen);
+    console.log('boxProps', boxProps);
     return (
         <React.Fragment>
             <Box
@@ -58,8 +59,8 @@ const StageComponent = props => {
                     <img
                         src={
                             showVideo
-                                ? '/static/change.png'
-                                : '/static/change2.png'
+                                ? 'static/change.png'
+                                : 'static/change2.png'
                         }
                         style={{
                             position: 'absolute',
@@ -70,7 +71,9 @@ const StageComponent = props => {
                         onClick={() => setShowVideo(showVideo)}
                     />
 
-                    {showVideo && curSubsection ? (
+                    {showVideo &&
+                    curSubsection &&
+                    curSubsection.video_url !== '' ? (
                         <video
                             src={curSubsection.video_url}
                             controls

@@ -1,5 +1,5 @@
 {
-    "userWeb": "http://localhost:8000/user/login",
-    "apiBaseURL": "http://localhost:8000/api/",
-    "apiWeb": "http://localhost:8000/user/login"
+    "userWeb": "/admin/user/login",
+    "apiBaseURL": "/api/",
+    "apiWeb": "/admin/user/login"
 }

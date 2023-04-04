@@ -94,6 +94,7 @@ class Stage extends React.Component {
     }
 
     componentDidUpdate(prevProps) {
+        console.log('componentDidUpdate', this.props);
         if (this.props.isColorPicking && !prevProps.isColorPicking) {
             this.startColorPickingLoop();
         } else if (!this.props.isColorPicking && prevProps.isColorPicking) {
@@ -452,7 +453,7 @@ class Stage extends React.Component {
             onActivateColorPicker, // eslint-disable-line no-unused-vars
             ...props
         } = this.props;
-        console.log('stageprops', this.props);
+        console.log('stageprops', this.canvas);
         return (
             <StageComponent
                 canvas={this.canvas}

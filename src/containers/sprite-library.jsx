@@ -1,7 +1,7 @@
 import bindAll from 'lodash.bindall';
 import PropTypes from 'prop-types';
 import React from 'react';
-import {injectIntl, intlShape, defineMessages} from 'react-intl';
+import { injectIntl, intlShape, defineMessages } from 'react-intl';
 import VM from 'scratch-vm';
 
 import spriteLibraryContent from '../lib/libraries/sprites.json';
@@ -14,25 +14,24 @@ const messages = defineMessages({
     libraryTitle: {
         defaultMessage: 'Choose a Sprite',
         description: 'Heading for the sprite library',
-        id: 'gui.spriteLibrary.chooseASprite'
-    }
+        id: 'gui.spriteLibrary.chooseASprite',
+    },
 });
 
 class SpriteLibrary extends React.PureComponent {
-    constructor (props) {
+    constructor(props) {
         super(props);
-        bindAll(this, [
-            'handleItemSelect'
-        ]);
+        bindAll(this, ['handleItemSelect']);
     }
-    handleItemSelect (item) {
+    handleItemSelect(item) {
         // Randomize position of library sprite
         randomizeSpritePosition(item);
         this.props.vm.addSprite(JSON.stringify(item)).then(() => {
             this.props.onActivateBlocksTab();
         });
     }
-    render () {
+    render() {
+        console.log('spriteTags', spriteTags);
         return (
             <LibraryComponent
                 data={spriteLibraryContent}
@@ -50,7 +49,7 @@ SpriteLibrary.propTypes = {
     intl: intlShape.isRequired,
     onActivateBlocksTab: PropTypes.func.isRequired,
     onRequestClose: PropTypes.func,
-    vm: PropTypes.instanceOf(VM).isRequired
+    vm: PropTypes.instanceOf(VM).isRequired,
 };
 
 export default injectIntl(SpriteLibrary);
