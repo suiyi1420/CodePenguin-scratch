@@ -4,7 +4,10 @@ import PropTypes from 'prop-types';
 import { defineMessages, intlShape, injectIntl } from 'react-intl';
 import { connect } from 'react-redux';
 import log from '../lib/log';
+import Box from '../components/box/box.jsx';
 import sharedMessages from './shared-messages';
+import Modal from '../containers/modal.jsx';
+import styles from '../components/connection-modal/connection-modal.css';
 // import analytics from '../lib/analytics';
 
 import {
@@ -17,6 +20,9 @@ import {
 import { setProjectTitle } from '../reducers/project-title';
 import { openLoadingProject, closeLoadingProject } from '../reducers/modals';
 import { closeFileMenu } from '../reducers/menus';
+import { setSubsectionFile, saveCloudFile } from '../reducers/other';
+import { openFileLoadModal, closeFileLoadModal } from '../reducers/modals';
+import classNames from 'classnames';
 
 const messages = defineMessages({
     loadError: {
@@ -48,17 +54,30 @@ const SBFileUploaderHOC = function (WrappedComponent) {
                 'handleChange',
                 'onload',
                 'removeFileObjects',
+                'loadSB3',
+                'saveSB3ToCloud',
             ]);
+            this.state = {
+                origin_file_url: '',
+                last_file_url: '',
+            };
+            this.timer = null;
         }
         componentDidUpdate(prevProps) {
-            console.log('3333333333333333', this.props);
             if (this.props.isLoadingUpload && !prevProps.isLoadingUpload) {
                 this.handleFinishedLoadingUpload(); // cue step 5 below
             }
-            if (this.props.curSubsection !== prevProps.curSubsection) {
-                if (this.props.curSubsection) {
-                    this.loadSb3();
+
+            if (
+                this.props.curSubsection !== prevProps.curSubsection ||
+                this.props.userInfo !== prevProps.userInfo
+            ) {
+                if (this.props.curSubsection && this.props.userInfo) {
+                    this.initSb3();
                 }
+            }
+            if (this.props.fileLoadModalVisible) {
+                clearInterval(this.timer);
             }
         }
         // shouldComponentUpdate(nextProps, nextState) {
@@ -69,18 +88,64 @@ const SBFileUploaderHOC = function (WrappedComponent) {
         }
 
         componentWillUnmount() {
+            console.log('删除');
             this.removeFileObjects();
+            clearInterval(this.timer);
         }
 
-        loadSb3() {
+        initSb3() {
             this.removeFileObjects();
-            const url = this.props.curSubsection.file_url;
+            console.log('initSb3');
+            this.setState({
+                origin_file_url: this.props.curSubsection.file_url,
+            });
+            if (this.props.userInfo && this.props.userInfo.userId !== '') {
+                const { userId } = this.props.userInfo;
+                const subsection_id = this.props.curSubsection.id;
+                const opt = {
+                    headers: {
+                        Authorization: this.props.token,
+                        'Content-Type': 'application/json;charset=UTF-8',
+                    },
+                    method: 'post',
+                    body: JSON.stringify({
+                        user_id: userId,
+                        subsection_id: subsection_id,
+                    }),
+                };
+                fetch(
+                    `${this.props.apiBaseURL}system/subject/subsection/cloud`,
+                    opt,
+                )
+                    .then(resp => resp.json())
+                    .then(res => {
+                        console.log('cloud', res);
+                        if (res.data) {
+                            const _this = this;
+
+                            this.setState(
+                                { last_file_url: res.data.file_url },
+                                () => {
+                                    _this.props.openFileLoadModal();
+                                },
+                            );
+                            // url=res.file_url;
+                        } else {
+                            this.loadSB3(this.props.curSubsection.file_url);
+                        }
+                    });
+            } else {
+                //this.loadSB3(this.props.curSubsection.file_url);
+            }
+        }
+
+        loadSB3(url) {
             const _this = this;
             console.log('即将初始加载Sb3文件');
             let reader = new FileReader();
             let request = new XMLHttpRequest();
-            console.log('加载的资源路径', url);
-            request.open('GET', url, true);
+            console.log('加载的资源路径', this.props.apiBaseURL + url);
+            request.open('GET', this.props.apiBaseURL + url, true);
             request.responseType = 'blob';
             request.onload = function () {
                 if (request.status == 404) {
@@ -107,6 +172,29 @@ const SBFileUploaderHOC = function (WrappedComponent) {
                         });
             };
             request.send();
+            this.timer = setInterval(() => {
+                this.saveSB3ToCloud();
+            }, this.props.autoSaveTime);
+        }
+
+        saveSB3ToCloud() {
+            const _this = this;
+            this.props.saveProjectSb3().then(content => {
+                const { userInfo, curSubsection, apiBaseURL } = _this.props;
+
+                const fileName =
+                    userInfo.userId + '_' + curSubsection.id + '.sb3';
+                let file = new File([content], fileName);
+                const formData = new FormData();
+                formData.append('file', file);
+                formData.append('type', 'cloud');
+                this.props.saveCloudFile(
+                    userInfo.userId,
+                    curSubsection.id,
+                    apiBaseURL,
+                    formData,
+                );
+            });
         }
         // step 1: this is where the upload process begins
         handleStartSelectingFileUpload() {
@@ -242,6 +330,7 @@ const SBFileUploaderHOC = function (WrappedComponent) {
             const {
                 /* eslint-disable no-unused-vars */
                 cancelFileUpload,
+                fileLoadModalVisible,
                 closeFileMenu: closeFileMenuProp,
                 isLoadingUpload,
                 isShowingWithoutId,
@@ -255,7 +344,7 @@ const SBFileUploaderHOC = function (WrappedComponent) {
                 /* eslint-enable no-unused-vars */
                 ...componentProps
             } = this.props;
-
+            console.log('fileLoadModalVisible', fileLoadModalVisible);
             return (
                 <React.Fragment>
                     <WrappedComponent
@@ -263,7 +352,69 @@ const SBFileUploaderHOC = function (WrappedComponent) {
                             this.handleStartSelectingFileUpload
                         }
                         {...componentProps}
-                    />
+                    >
+                        {fileLoadModalVisible ? (
+                            <Modal
+                                className={styles.modalContent}
+                                headerClassName={styles.header}
+                                contentLabel={'作品加载'}
+                                id="fileLoadModal"
+                                onRequestClose={this.props.closeFileLoadModal}
+                            >
+                                <Box className={styles.body}>
+                                    <Box className={styles.activityArea}>
+                                        <Box className={styles.centeredRow}>
+                                            <div
+                                                className={
+                                                    styles.peripheralActivity
+                                                }
+                                            >
+                                                是否加载上一次保存的作品？
+                                            </div>
+                                        </Box>
+                                    </Box>
+                                    <Box className={styles.bottomArea}>
+                                        <div
+                                            className={classNames(
+                                                styles.bottomAreaItem,
+                                                styles.cornerButtons,
+                                            )}
+                                        >
+                                            <button
+                                                className={classNames(
+                                                    styles.redButton,
+                                                    styles.connectionButton,
+                                                )}
+                                                onClick={() => {
+                                                    this.loadSB3(
+                                                        this.state
+                                                            .last_file_url,
+                                                    );
+                                                    this.props.closeFileLoadModal();
+                                                }}
+                                            >
+                                                加载
+                                            </button>
+                                            <button
+                                                className={
+                                                    styles.connectionButton
+                                                }
+                                                onClick={() => {
+                                                    this.loadSB3(
+                                                        this.state
+                                                            .origin_file_url,
+                                                    );
+                                                    this.props.closeFileLoadModal();
+                                                }}
+                                            >
+                                                取消
+                                            </button>
+                                        </div>
+                                    </Box>
+                                </Box>
+                            </Modal>
+                        ) : null}
+                    </WrappedComponent>
                 </React.Fragment>
             );
         }
@@ -286,6 +437,11 @@ const SBFileUploaderHOC = function (WrappedComponent) {
         vm: PropTypes.shape({
             loadProject: PropTypes.func,
         }),
+        userInfo: PropTypes.object,
+        onCancel: PropTypes.func.isRequired,
+        apiBaseURL: PropTypes.object,
+        token: PropTypes.object,
+        fileLoadModalVisible: PropTypes.object,
     };
     const mapStateToProps = (state, ownProps) => {
         const loadingState = state.scratchGui.projectState.loadingState;
@@ -298,12 +454,20 @@ const SBFileUploaderHOC = function (WrappedComponent) {
             isShowingWithoutId: getIsShowingWithoutId(loadingState),
             loadingState: loadingState,
             projectChanged: state.scratchGui.projectChanged,
+            fileLoadModalVisible: state.scratchGui.modals.fileLoadModal,
             userOwnsProject:
                 ownProps.authorUsername &&
                 user &&
                 ownProps.authorUsername === user.username,
             vm: state.scratchGui.vm,
             curSubsection: state.scratchGui.other.curSubsection,
+            userInfo: state.scratchGui.user.userInfo,
+            apiBaseURL: state.scratchGui.other.apiBaseURL,
+            token: state.scratchGui.other.token,
+            saveProjectSb3: state.scratchGui.vm.saveProjectSb3.bind(
+                state.scratchGui.vm,
+            ),
+            autoSaveTime: state.scratchGui.other.autoSaveTime,
         };
     };
     const mapDispatchToProps = (dispatch, ownProps) => ({
@@ -325,6 +489,11 @@ const SBFileUploaderHOC = function (WrappedComponent) {
         // noticed by componentDidUpdate()
         requestProjectUpload: loadingState =>
             dispatch(requestProjectUpload(loadingState)),
+        openFileLoadModal: () => dispatch(openFileLoadModal()),
+        closeFileLoadModal: () => dispatch(closeFileLoadModal()),
+        setSubsectionFile: () => dispatch(setSubsectionFile()),
+        saveCloudFile: (user_id, subsection_id, apiBaseURL, formData) =>
+            saveCloudFile(user_id, subsection_id, apiBaseURL, formData),
     });
     // Allow incoming props to override redux-provided props. Used to mock in tests.
     const mergeProps = (stateProps, dispatchProps, ownProps) =>

@@ -73,6 +73,7 @@ const StageComponent = props => {
 
                     {showVideo &&
                     curSubsection &&
+                    curSubsection.video_url &&
                     curSubsection.video_url !== '' ? (
                         <video
                             src={curSubsection.video_url}

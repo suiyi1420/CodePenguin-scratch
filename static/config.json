@@ -1,5 +1,6 @@
 {
-    "userWeb": "/admin/user/login",
+    "userWeb": "/admin",
     "apiBaseURL": "/api/",
-    "apiWeb": "/admin/user/login"
+    "apiWeb": "/admin",
+    "autoSaveTime": 30000
 }

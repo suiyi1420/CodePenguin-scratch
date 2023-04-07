@@ -14,6 +14,7 @@ export default (filename, blob) => {
         downloadLink.download = filename;
         downloadLink.type = blob.type;
         downloadLink.click();
+        console.log('下载');
         // remove the link after a timeout to prevent a crash on iOS 13 Safari
         window.setTimeout(() => {
             document.body.removeChild(downloadLink);
@@ -29,5 +30,4 @@ export default (filename, blob) => {
         };
         reader.readAsDataURL(blob);
     }
-
 };

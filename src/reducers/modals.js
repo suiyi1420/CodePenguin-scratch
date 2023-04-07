@@ -11,6 +11,7 @@ const MODAL_SPRITE_LIBRARY = 'spriteLibrary';
 const MODAL_SOUND_RECORDER = 'soundRecorder';
 const MODAL_CONNECTION = 'connectionModal';
 const MODAL_TIPS_LIBRARY = 'tipsLibrary';
+const MODAL_FILE_LOAD = 'fileLoadModal';
 
 const initialState = {
     [MODAL_BACKDROP_LIBRARY]: false,
@@ -22,34 +23,35 @@ const initialState = {
     [MODAL_SPRITE_LIBRARY]: false,
     [MODAL_SOUND_RECORDER]: false,
     [MODAL_CONNECTION]: false,
-    [MODAL_TIPS_LIBRARY]: false
+    [MODAL_TIPS_LIBRARY]: false,
+    [MODAL_FILE_LOAD]: false,
 };
 
 const reducer = function (state, action) {
     if (typeof state === 'undefined') state = initialState;
     switch (action.type) {
-    case OPEN_MODAL:
-        return Object.assign({}, state, {
-            [action.modal]: true
-        });
-    case CLOSE_MODAL:
-        return Object.assign({}, state, {
-            [action.modal]: false
-        });
-    default:
-        return state;
+        case OPEN_MODAL:
+            return Object.assign({}, state, {
+                [action.modal]: true,
+            });
+        case CLOSE_MODAL:
+            return Object.assign({}, state, {
+                [action.modal]: false,
+            });
+        default:
+            return state;
     }
 };
 const openModal = function (modal) {
     return {
         type: OPEN_MODAL,
-        modal: modal
+        modal: modal,
     };
 };
 const closeModal = function (modal) {
     return {
         type: CLOSE_MODAL,
-        modal: modal
+        modal: modal,
     };
 };
 const openBackdropLibrary = function () {
@@ -78,6 +80,9 @@ const openSoundRecorder = function () {
 };
 const openConnectionModal = function () {
     return openModal(MODAL_CONNECTION);
+};
+const openFileLoadModal = function () {
+    return openModal(MODAL_FILE_LOAD);
 };
 const openTipsLibrary = function () {
     return openModal(MODAL_TIPS_LIBRARY);
@@ -112,6 +117,9 @@ const closeTipsLibrary = function () {
 const closeConnectionModal = function () {
     return closeModal(MODAL_CONNECTION);
 };
+const closeFileLoadModal = function () {
+    return closeModal(MODAL_FILE_LOAD);
+};
 export {
     reducer as default,
     initialState as modalsInitialState,
@@ -125,6 +133,7 @@ export {
     openTelemetryModal,
     openTipsLibrary,
     openConnectionModal,
+    openFileLoadModal,
     closeBackdropLibrary,
     closeCostumeLibrary,
     closeExtensionLibrary,
@@ -134,5 +143,6 @@ export {
     closeSoundRecorder,
     closeTelemetryModal,
     closeTipsLibrary,
-    closeConnectionModal
+    closeConnectionModal,
+    closeFileLoadModal,
 };

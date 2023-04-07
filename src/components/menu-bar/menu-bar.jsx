@@ -652,7 +652,14 @@ class MenuBar extends React.Component {
                                                     this.setState({
                                                         subjectMenu: false,
                                                     });
-                                                    setShowVideo(false);
+                                                    if (
+                                                        item.video_url &&
+                                                        item.video_url !== ''
+                                                    ) {
+                                                        setShowVideo(false);
+                                                    } else {
+                                                        setShowVideo(true);
+                                                    }
                                                 }}
                                             >
                                                 {item.name}

@@ -22,8 +22,12 @@ const MenuBarHOC = function (WrappedComponent) {
         }
         componentDidMount() {
             // eslint-disable-next-line react/prop-types
-            this.props.getSubsectionList();
-            this.props.getUserInfo();
+            if (!this.props.userInfo) {
+                this.props.getUserInfo();
+            }
+            if (this.props.subsectionList.length == 0) {
+                this.props.getSubsectionList();
+            }
         }
         confirmReadyToReplaceProject(message) {
             let readyToReplaceProject = true;
@@ -69,7 +73,7 @@ const MenuBarHOC = function (WrappedComponent) {
         subsectionList: state.scratchGui.other.subsectionList,
         curSubsection: state.scratchGui.other.curSubsection,
         showVideo: state.scratchGui.other.showVideo,
-        user: state.scratchGui.user,
+        userInfo: state.scratchGui.user.userInfo,
     });
     const mapDispatchToProps = dispatch => ({
         changeCurSubsection: curSubsection =>
