@@ -8,6 +8,7 @@ import Box from '../components/box/box.jsx';
 import sharedMessages from './shared-messages';
 import Modal from '../containers/modal.jsx';
 import styles from '../components/connection-modal/connection-modal.css';
+import { subjectSubsectionType } from '../utils/valueEnum';
 // import analytics from '../lib/analytics';
 
 import {
@@ -73,7 +74,16 @@ const SBFileUploaderHOC = function (WrappedComponent) {
                 this.props.userInfo !== prevProps.userInfo
             ) {
                 if (this.props.curSubsection && this.props.userInfo) {
-                    this.initSb3();
+                    console.log(
+                        'this.props.curSubsection',
+                        this.props.curSubsection,
+                    );
+                    if (
+                        this.props.curSubsection.type !=
+                        subjectSubsectionType.仅视频
+                    ) {
+                        this.initSb3();
+                    }
                 }
             }
             if (this.props.fileLoadModalVisible) {

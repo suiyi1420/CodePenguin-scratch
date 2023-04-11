@@ -236,7 +236,7 @@
 }
 .subjectSelect {
     padding: 0 1rem;
-    width: 280px;
+    width: 300px;
     height: 2rem;
     border: 1px solid #1d7cff;
     border-radius: 0.25rem;
@@ -247,7 +247,7 @@
     align-items: center;
 }
 .subjectSelectText {
-    width: 132px;
+    width: 152px;
     display: inline-block;
     overflow: hidden;
     text-overflow: ellipsis;
