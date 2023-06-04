@@ -12,6 +12,7 @@ const MODAL_SOUND_RECORDER = 'soundRecorder';
 const MODAL_CONNECTION = 'connectionModal';
 const MODAL_TIPS_LIBRARY = 'tipsLibrary';
 const MODAL_FILE_LOAD = 'fileLoadModal';
+const MODAL_LOADING = 'fileLoadingModal';
 
 const initialState = {
     [MODAL_BACKDROP_LIBRARY]: false,
@@ -25,6 +26,7 @@ const initialState = {
     [MODAL_CONNECTION]: false,
     [MODAL_TIPS_LIBRARY]: false,
     [MODAL_FILE_LOAD]: false,
+    [MODAL_LOADING]: false,
 };
 
 const reducer = function (state, action) {
@@ -84,6 +86,9 @@ const openConnectionModal = function () {
 const openFileLoadModal = function () {
     return openModal(MODAL_FILE_LOAD);
 };
+const openLoadingModal = function () {
+    return openModal(MODAL_LOADING);
+};
 const openTipsLibrary = function () {
     return openModal(MODAL_TIPS_LIBRARY);
 };
@@ -120,6 +125,9 @@ const closeConnectionModal = function () {
 const closeFileLoadModal = function () {
     return closeModal(MODAL_FILE_LOAD);
 };
+const closeLoadingModal = function () {
+    return closeModal(MODAL_LOADING);
+};
 export {
     reducer as default,
     initialState as modalsInitialState,
@@ -134,6 +142,7 @@ export {
     openTipsLibrary,
     openConnectionModal,
     openFileLoadModal,
+    openLoadingModal,
     closeBackdropLibrary,
     closeCostumeLibrary,
     closeExtensionLibrary,
@@ -145,4 +154,5 @@ export {
     closeTipsLibrary,
     closeConnectionModal,
     closeFileLoadModal,
+    closeLoadingModal,
 };

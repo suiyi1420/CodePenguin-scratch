@@ -81,6 +81,7 @@ import aboutIcon from './icon--about.svg';
 import scratchLogo from './scratch-logo.svg';
 
 import sharedMessages from '../../lib/shared-messages';
+import { saveCloudFile, saveSB3ToCloud } from '../../reducers/other';
 
 const ariaMessages = defineMessages({
     language: {
@@ -607,6 +608,16 @@ class MenuBar extends React.Component {
                                 </MenuSection>
                             </MenuBarMenu>
                         </div>
+                        <Button
+                            // className={classNames(styles.editMenu)}
+                            onClick={() =>
+                                saveSB3ToCloud(this.props, this, () =>
+                                    alert('保存成功!'),
+                                )
+                            }
+                        >
+                            保存到云端
+                        </Button>
                     </div>
                     <div className={classNames(styles.subjectSelectBox)}>
                         <div
@@ -797,6 +808,7 @@ class MenuBar extends React.Component {
 }
 
 MenuBar.propTypes = {
+    apiBaseURL: PropTypes.object,
     aboutMenuOpen: PropTypes.bool,
     accountMenuOpen: PropTypes.bool,
     authorId: PropTypes.oneOfType([PropTypes.string, PropTypes.bool]),
@@ -881,6 +893,7 @@ const mapStateToProps = (state, ownProps) => {
     const user =
         state.session && state.session.session && state.session.session.user;
     return {
+        apiBaseURL: state.scratchGui.other.apiBaseURL,
         aboutMenuOpen: aboutMenuOpen(state),
         accountMenuOpen: accountMenuOpen(state),
         fileMenuOpen: fileMenuOpen(state),
@@ -900,6 +913,10 @@ const mapStateToProps = (state, ownProps) => {
             user &&
             ownProps.authorUsername === user.username,
         userInfo: state.scratchGui.user.userInfo,
+        saveProjectSb3: state.scratchGui.vm.saveProjectSb3.bind(
+            state.scratchGui.vm,
+        ),
+        subjectInfo: state.scratchGui.other.subjectInfo,
         vm: state.scratchGui.vm,
     };
 };
@@ -924,6 +941,10 @@ const mapDispatchToProps = dispatch => ({
     onClickSave: () => dispatch(manualUpdateProject()),
     onClickSaveAsCopy: () => dispatch(saveProjectAsCopy()),
     onSeeCommunity: () => dispatch(setPlayer(true)),
+    saveCloudFile: (user_id, subsection_id, apiBaseURL, formData, callback) =>
+        saveCloudFile(user_id, subsection_id, apiBaseURL, formData, callback),
+    saveSB3ToCloud: (_props, _this, callback) =>
+        saveSB3ToCloud(_props, _this, callback),
 });
 
 export default compose(

@@ -35,3 +35,16 @@ export const commonFormType = {
     编辑: 1,
     删除: 2,
 };
+
+export const saveFileType = {
+    所有小节一个文件: 0,
+    每一小节一个文件: 1,
+};
+
+export const getKeyByValue = (object, value) => {
+    for (const key in object) {
+        if (object[key] === value) {
+            return key;
+        }
+    }
+};

@@ -1,4 +1,6 @@
+import { saveFileType } from '../utils/valueEnum';
 const CHANGE_SUBJECT = 'scratch-gui/subject/change';
+const CHANGE_SUBJECTINFO = 'scratch-gui/subject/info';
 const CHANGE_CURSUBSECTION = 'scratch-gui/cursubject/change';
 const CHANGE_SUBSECTIONFILE = 'scratch-gui/subsectionfile/change';
 const CHANGE_FILE_URL = 'scratch-gui/fileurl/change';
@@ -6,6 +8,7 @@ const CHANGE_AUTO_SAVE_TIME = 'scratch-gui/auto_save_time/change';
 
 const initialState = {
     subsectionList: [],
+    subjectInfo: null,
     subsectionFile: null,
     curSubsection: null,
     showVideo: true,
@@ -27,6 +30,12 @@ const reducer = function (state, action) {
                 ...action.payload,
             };
     }
+};
+const setSubjectInfo = function (subjectInfo) {
+    return {
+        type: CHANGE_SUBJECTINFO,
+        payload: { subjectInfo: subjectInfo },
+    };
 };
 const setSubsectionList = function (subsectionList) {
     return {
@@ -120,10 +129,46 @@ const getSubsectionList = dispatch => {
                         }
                     }
                 });
+            fetch(
+                res.apiBaseURL +
+                    'system/class/list/subject/subsection/' +
+                    subject_info_id,
+                opt,
+            )
+                .then(resp1 => resp1.json())
+                .then(resp2 => {
+                    console.log('res', resp2);
+                    dispatch(setSubsectionList(resp2.data));
+
+                    if (resp2.data.length > 0) {
+                        dispatch(setCurSubsection(resp2.data[0]));
+                        if (
+                            resp2.data[0].video_url &&
+                            resp2.data[0].video_url !== ''
+                        ) {
+                            dispatch(setShowVideo(true));
+                        }
+                    }
+                });
+            fetch(
+                res.apiBaseURL + '/system/subject/info/' + subject_info_id,
+                opt,
+            )
+                .then(resp1 => resp1.json())
+                .then(resp2 => {
+                    console.log('res', resp2);
+                    dispatch(setSubjectInfo(resp2.data));
+                });
         });
 };
-//保存至云端
-const saveCloudFile = (user_id, subsection_id, apiBaseURL, formData) => {
+//保存至云端接口
+const saveCloudFile = (
+    user_id,
+    subsection_id,
+    apiBaseURL,
+    formData,
+    callback,
+) => {
     const param = new URLSearchParams(window.location.search);
     const access = param.get('access');
     const token = 'Bearer ' + access;
@@ -156,9 +201,48 @@ const saveCloudFile = (user_id, subsection_id, apiBaseURL, formData) => {
                     .then(resp => resp.json())
                     .then(res => {
                         console.log('保存至云端2', res);
+
+                        if (callback) {
+                            callback();
+                        }
                     });
             }
         });
+};
+
+//保存到云端出发事件
+const saveSB3ToCloud = (props, _this, callback) => {
+    // const _this = this;
+    props.saveProjectSb3().then(content => {
+        const { userInfo, curSubsection, apiBaseURL, subjectInfo } =
+            _this.props;
+        console.log('subjectInfo:' + subjectInfo);
+        let fileName = '';
+        if (subjectInfo != null) {
+            if (subjectInfo.save_file_type == saveFileType.每一小节一个文件) {
+                fileName = userInfo.userId + '_' + curSubsection.id + '.sb3';
+            } else if (
+                subjectInfo.save_file_type === saveFileType.所有小节一个文件
+            ) {
+                fileName =
+                    userInfo.userId +
+                    '_subject_' +
+                    subjectInfo.subject_info_id +
+                    '.sb3';
+            }
+        }
+        let file = new File([content], fileName);
+        const formData = new FormData();
+        formData.append('file', file);
+        formData.append('type', 'cloud');
+        props.saveCloudFile(
+            userInfo.userId,
+            curSubsection.id,
+            apiBaseURL,
+            formData,
+            callback,
+        );
+    });
 };
 
 export {
@@ -170,4 +254,5 @@ export {
     saveCloudFile,
     setSubsectionFile,
     setfileUrl,
+    saveSB3ToCloud,
 };

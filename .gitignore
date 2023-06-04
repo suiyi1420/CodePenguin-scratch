@@ -18,3 +18,5 @@ build.zip
 # Generated translation files
 /translations
 /locale
+*.zip
+/CodePenguin-scratch

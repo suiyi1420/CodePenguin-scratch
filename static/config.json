@@ -1,6 +1,6 @@
 {
     "userWeb": "/admin",
-    "apiBaseURL": "/api/",
+    "apiBaseURL": "http://localhost:8000/api/",
     "apiWeb": "/admin",
     "autoSaveTime": 30000
 }
