@@ -79,7 +79,7 @@ const StageComponent = props => {
                             src={curSubsection.video_url}
                             controls
                             autoPlay="autoPlay"
-                            loop="loop"
+                            // loop="loop"
                             controlsList="nodownload"
                             style={{
                                 height: stageDimensions.height,
